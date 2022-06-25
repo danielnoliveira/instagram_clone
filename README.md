@@ -17,14 +17,14 @@ samples, guidance on mobile development, and a full API reference.
 # instagram_clone
 
 ## Tasks
-- [ ] Navigation widgets
+- [X] Navigation widgets
     - [X] bottom_Navigation
     - [X] instagram_app_bar
-    - [ ] my_user_app_bar
-    - [ ] other_user_app_bar
-- [ ] Tabs widgets
-    - [ ] full_options_tabs
-    - [ ] posts_and_metions_tabs
+    - [X] my_user_app_bar
+    - [X] other_user_app_bar
+- [X] Tabs widgets
+    - [X] full_options_tabs
+    - [X] posts_and_metions_tabs
 - [ ] Story tray widgets
     - [ ] my_story_list
     - [ ] stories_from_other_users

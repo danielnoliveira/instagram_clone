@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/shared_widgets/buttons/instagram_icon_button.dart';
 import 'package:sizer/sizer.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -17,39 +18,15 @@ class InitialAppBar extends StatelessWidget with PreferredSizeWidget {
             SvgPicture.asset('assets/svgs/ig_logo.svg'),
             Row(
               children: [
-                GestureDetector(
-                    onTap: () {
-                      print('A daoisndoias');
-                    },
-                    child: SvgPicture.asset(
-                      'assets/svgs/add.svg',
-                      width: 6.4.w,
-                      height: 6.4.w,
-                    )),
+                InstagramIconButton(iconSvg: 'add'),
                 SizedBox(
                   width: 5.3.w,
                 ),
-                GestureDetector(
-                    onTap: () {
-                      print('B daoisndoias');
-                    },
-                    child: SvgPicture.asset(
-                      'assets/svgs/heart.svg',
-                      width: 6.4.w,
-                      height: 6.4.w,
-                    )),
+                InstagramIconButton(iconSvg: 'heart'),
                 SizedBox(
                   width: 5.3.w,
                 ),
-                GestureDetector(
-                    onTap: () {
-                      print('C daoisndoias');
-                    },
-                    child: SvgPicture.asset(
-                      'assets/svgs/messenger.svg',
-                      width: 6.4.w,
-                      height: 6.4.w,
-                    )),
+                InstagramIconButton(iconSvg: 'messenger'),
               ],
             )
           ],
