@@ -25,15 +25,15 @@ samples, guidance on mobile development, and a full API reference.
 - [X] Tabs widgets
     - [X] full_options_tabs
     - [X] posts_and_metions_tabs
-- [ ] Story tray widgets
+- [X] Story tray widgets
     - [X] story_tray_home
-    - [ ] story_tray_profile
+    - [X] story_tray_profile
 - [ ] User data
-- [ ] Buttons
-    - [ ] white_button
-    - [ ] blue_button
-    - [ ] arrow_button
-    - [ ] button_with_arrow
+- [x] Buttons
+    - [x] white_button
+    - [x] blue_button
+    - [x] arrow_button
+    - [x] button_with_arrow
 - [ ] User header
     - [ ] user_header_with_only_title
     - [ ] user_header_with_title_and_subtitle
