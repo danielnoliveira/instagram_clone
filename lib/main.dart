@@ -6,6 +6,5 @@ import 'package:sizer/sizer.dart';
 import 'screens/app/app.dart';
 
 void main() {
-  runApp(DevicePreview(
-      enabled: !kReleaseMode, builder: (context) => const MyApp()));
+  runApp(DevicePreview(enabled: false, builder: (context) => const MyApp()));
 }

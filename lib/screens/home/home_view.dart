@@ -5,6 +5,7 @@ import 'package:instagram_clone/shared_widgets/apps_bar/initial_app_bar.dart';
 import 'package:instagram_clone/shared_widgets/apps_bar/my_user_profile_app_bar.dart';
 import 'package:instagram_clone/shared_widgets/apps_bar/other_user_profile_app_bar.dart';
 import 'package:instagram_clone/shared_widgets/bottom_bar/bottom_bar.dart';
+import 'package:instagram_clone/shared_widgets/story_trays/story_tray_home.dart';
 import 'package:instagram_clone/shared_widgets/tabs/full_options_tabs.dart';
 import 'package:instagram_clone/shared_widgets/tabs/posts_and_mentions_tabs.dart';
 import 'package:sizer/sizer.dart';
@@ -21,6 +22,7 @@ class HomeView extends HomeViewModel {
         height: 100.h,
         child: Column(
           children: [
+            StoryTrayHome(),
             PostsAndMentionsTabs(tabController: tabController),
             Container(
               width: 100.w,

@@ -26,8 +26,8 @@ samples, guidance on mobile development, and a full API reference.
     - [X] full_options_tabs
     - [X] posts_and_metions_tabs
 - [ ] Story tray widgets
-    - [ ] my_story_list
-    - [ ] stories_from_other_users
+    - [X] story_tray_home
+    - [ ] story_tray_profile
 - [ ] User data
 - [ ] Buttons
     - [ ] white_button

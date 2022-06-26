@@ -50,8 +50,8 @@ class _InstagramBottomNavigationBarState
             decoration: BoxDecoration(shape: BoxShape.circle),
             child: Image.asset(
               'assets/images/Ruffles.png',
-              width: 5.6.w,
-              height: 5.6.w,
+              width: 24,
+              height: 24,
               fit: BoxFit.contain,
             ),
           ),
