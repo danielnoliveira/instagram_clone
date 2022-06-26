@@ -28,7 +28,7 @@ samples, guidance on mobile development, and a full API reference.
 - [X] Story tray widgets
     - [X] story_tray_home
     - [X] story_tray_profile
-- [ ] User data
+- [X] User data
 - [x] Buttons
     - [x] white_button
     - [x] blue_button
